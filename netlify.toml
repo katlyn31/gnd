@@ -8,3 +8,10 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  force = true
+
+# For SPA fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
