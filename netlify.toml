@@ -1,13 +1,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Type = "application/javascript"
-
-[[redirects]]
-  from = "/assets/*"
-  to = "/assets/:splat"
-  status = 200
-  force = true
+    Content-Type = "text/html"
+    X-Content-Type-Options = "nosniff"
 
 [[redirects]]
   from = "/*"
