@@ -32,7 +32,7 @@ export default function Home() {
     <div className="container mx-auto px-4">
       <div>
         <h1 className="text-[70px] text-center text-red-200 font-extrabold drop-shadow-[0_4px_8px_rgba(0,0,0,0.3)]">
-          <span className="text-[80px] text-black">"</span>Want to fuck{" "}
+          {/* <span className="text-[80px] text-black">"</span>Want to fuck{" "} */}
           <span className="text-red-500">HOT</span> chicks{" "}
           <span className="text-[80px] text-black">"</span>
         </h1>
@@ -43,10 +43,10 @@ export default function Home() {
      {loading ?   <Loader/> : null }
 
      
-      <Carousel  images={images}/>
+      {/* <Carousel  images={images}/> */}
       <div className="flex justify-center mt-10">
         <Link to="/register">
-          <Button text={"Start Fucking"} />
+          {/* <Button text={"Start Fucking"} /> */}
         </Link>
       </div>
 
