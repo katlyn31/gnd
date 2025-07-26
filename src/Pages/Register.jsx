@@ -322,10 +322,10 @@ export default function Register() {
               } rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500`}
             >
               <option value="">Select a plan</option>
-              <option value="1 Month - ₦5,000">1 Month - ₦5,000</option>
-              <option value="3 Months - ₦10,000">3 Months - ₦10,000</option>
-              <option value="1 Year - ₦20,000">1 Year - ₦20,000</option>
-              <option value="3 Years - ₦50,000">3 Years - ₦50,000</option>
+              <option value="1 Month - - ₦5,000">1 Month -- ₦5,000</option>
+              <option value="3 Months - - ₦10,000">3 Months -- ₦10,000</option>
+              <option value="1 Year - - ₦20,000">1 Year -- ₦20,000</option>
+              <option value="3 Years - - ₦55,000">3 Years -- ₦55,000</option>
             </select>
             {errors.subscriptionfee && (
               <p className="mt-1 text-sm text-red-500">
@@ -337,7 +337,7 @@ export default function Register() {
             onClick={handleSubmit}
             className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           >
-            Register
+            Register Now
           </button>
         </div>
       </div>
